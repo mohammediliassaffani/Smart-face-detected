@@ -7,3 +7,7 @@ html {
   background: linear-gradient(#e66465, #9198e5);
   background-repeat: no-repeat;
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
