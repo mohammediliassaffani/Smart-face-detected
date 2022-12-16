@@ -11,12 +11,14 @@ specifiers:
   prettier: ^2.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-tilt: ^0.1.4
   tachyons: ^4.12.0
   vite: ^4.0.0
 
 dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-tilt: 0.1.4_biqbaboplfbrettd7655fr4n2y
   tachyons: 4.12.0
 
 devDependencies:
@@ -1652,6 +1654,16 @@ packages:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /react-tilt/0.1.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-bVeRumg+RIn6QN8S92UmubGqX/BG6/QeQISBeAcrS/70dpo/jVj+sjikIawDl5wTuPdubFH8zH0EMulWIctsnw==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0-beta || ^16.0.0
+      react-dom: ^15.0.0 || ^16.0.0-beta || ^16.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
