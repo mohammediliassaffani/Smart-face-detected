@@ -1,4 +1,12 @@
 .Tilt {
   background: linear-gradient(#e66465, #9198e5);
   background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+.Logo {
+  padding-left: 25px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100px;
 }
