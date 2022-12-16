@@ -3,7 +3,9 @@ import React from 'react';
 const Navigation = () => {
   return (
     <div>
-      <p>Sing Out</p>
+      <nav className="Nav" style={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <p className="f3 link dim black underline pa3 pointer">Sing Out</p>
+      </nav>
     </div>
   );
 };
