@@ -3,6 +3,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Logo from './Components/Logo/Logo';
 import ImageLinkedForm from './Components/ImageLinkedForm/ImageLinkedForm';
 import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
+import Rank from './Components/Rank/Rank';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <Logo />
         <ImageLinkedForm />
         <FaceRecognition />
+        <Rank />
       </div>
     );
   }
