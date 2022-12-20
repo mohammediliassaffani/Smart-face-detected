@@ -7,12 +7,26 @@ import Rank from './Components/Rank/Rank';
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      input: ''
+    };
+  }
+  onInputChange = (e) => {
+    console.log(e.target.value);
+  };
+
+  onButtonSabmit = () => {
+    console.log('click');
+  };
+
   render() {
     return (
       <div className="App">
         <Navigation />
         <Logo />
-        <ImageLinkedForm />
+        <ImageLinkedForm onInputChange={this.onInputChange} onButtonSabmit={this.onButtonSabmit} />
         <FaceRecognition />
         <Rank />
       </div>
