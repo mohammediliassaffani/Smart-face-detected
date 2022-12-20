@@ -12,6 +12,7 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "clarifai": "^2.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-tilt": "^0.1.4",
