@@ -26,6 +26,7 @@ class App extends Component {
 
   onButtonSabmit = () => {
     console.log('click');
+    app.models.predict('ethnicity-demographics-recognition', '');
   };
 
   render() {
