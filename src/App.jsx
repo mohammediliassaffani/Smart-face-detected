@@ -7,7 +7,7 @@ import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
 import Rank from './Components/Rank/Rank';
 import './App.css';
 
-const Clarifai = require('clarifai');
+// const Clarifai = require('clarifai');
 
 const app = new Clarifai.App({
   apiKey: '3dd2e7bcc29f4e918eaeb9209eebc5b0'
