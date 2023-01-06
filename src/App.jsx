@@ -9,7 +9,7 @@ import './App.css';
 // const Clarifai = require('clarifai');
 
 // const app = new Clarifai.App({
-//   apiKey: '3dd2e7bcc29f4e918eaeb9209eebc5b0'
+//   apiKey: ''
 // });
 
 class App extends Component {
@@ -25,7 +25,7 @@ class App extends Component {
 
   onButtonSabmit = () => {
     console.log('click');
-    app.models.predict('ethnicity-demographics-recognition', '');
+    // App.models.predict('ethnicity-demographics-recognition', '');
   };
 
   render() {
