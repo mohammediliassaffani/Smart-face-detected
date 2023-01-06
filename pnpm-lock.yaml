@@ -13,7 +13,9 @@ specifiers:
   prettier: ^2.8.1
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-highlight: ^0.15.0
   react-tilt: ^0.1.4
+  react-tilty: ^2.0.3
   react-tsparticles: ^2.6.0
   tachyons: ^4.12.0
   vite: ^4.0.0
@@ -23,7 +25,9 @@ dependencies:
   clarifai-nodejs-grpc: 8.0.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-highlight: 0.15.0
   react-tilt: 0.1.4_biqbaboplfbrettd7655fr4n2y
+  react-tilty: 2.0.3_react@18.2.0
   react-tsparticles: 2.6.0_react@18.2.0
   tachyons: 4.12.0
 
@@ -1416,6 +1420,10 @@ packages:
       function-bind: 1.1.1
     dev: true
 
+  /highlight.js/10.7.3:
+    resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
+    dev: false
+
   /ignore/5.2.1:
     resolution: {integrity: sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==}
     engines: {node: '>= 4'}
@@ -1903,6 +1911,12 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-highlight/0.15.0:
+    resolution: {integrity: sha512-5uV/b/N4Z421GSVVe05fz+OfTsJtFzx/fJBdafZyw4LS70XjIZwgEx3Lrkfc01W/RzZ2Dtfb0DApoaJFAIKBtA==}
+    dependencies:
+      highlight.js: 10.7.3
+    dev: false
+
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
@@ -1920,6 +1934,14 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /react-tilty/2.0.3_react@18.2.0:
+    resolution: {integrity: sha512-/z23wWNndBpo6bMl5ktVj+Ght1bn+IMjSBIlCn7Fd3Te51MiSU/MRPcyefa6ghK01SxCO0ISf5xaVfTcjdTOag==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-tsparticles/2.6.0_react@18.2.0:
