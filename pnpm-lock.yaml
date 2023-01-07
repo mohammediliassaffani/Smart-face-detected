@@ -14,8 +14,6 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-highlight: ^0.15.0
-  react-tilt: ^0.1.4
-  react-tilty: ^2.0.3
   react-tsparticles: ^2.6.0
   tachyons: ^4.12.0
   vite: ^4.0.0
@@ -26,8 +24,6 @@ dependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-highlight: 0.15.0
-  react-tilt: 0.1.4_biqbaboplfbrettd7655fr4n2y
-  react-tilty: 2.0.3_react@18.2.0
   react-tsparticles: 2.6.0_react@18.2.0
   tachyons: 4.12.0
 
@@ -1925,24 +1921,6 @@ packages:
     resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
     engines: {node: '>=0.10.0'}
     dev: true
-
-  /react-tilt/0.1.4_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-bVeRumg+RIn6QN8S92UmubGqX/BG6/QeQISBeAcrS/70dpo/jVj+sjikIawDl5wTuPdubFH8zH0EMulWIctsnw==}
-    peerDependencies:
-      react: ^15.0.0 || ^16.0.0-beta || ^16.0.0
-      react-dom: ^15.0.0 || ^16.0.0-beta || ^16.0.0
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    dev: false
-
-  /react-tilty/2.0.3_react@18.2.0:
-    resolution: {integrity: sha512-/z23wWNndBpo6bMl5ktVj+Ght1bn+IMjSBIlCn7Fd3Te51MiSU/MRPcyefa6ghK01SxCO0ISf5xaVfTcjdTOag==}
-    peerDependencies:
-      react: '>=16.8.0'
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /react-tsparticles/2.6.0_react@18.2.0:
     resolution: {integrity: sha512-AtJ/rsseC1eh+8AKfVlWq8E5tNOcfcbxeSI+UHBJTx5j+BvAexf+Db/WGMeWoff+sMzSJbKtY/brMVu+89AOPw==}
